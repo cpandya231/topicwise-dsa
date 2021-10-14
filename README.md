@@ -32,6 +32,17 @@
 
 ### Backtracking
 
+_Backtracking is used when you have to look for all possible solution and remove the solution that does not match the given criteria_
+
+**Types of problems:**
+
+- Search for any feasible solution
+- Search for best feasible solution
+- Search for all feasible solutions
+
+**Actual problems:**
+
+[N-Queens problem](https://leetcode.com/problems/n-queens/)
 ### Bit Manipulation
 
 ### Dynamic Programming
