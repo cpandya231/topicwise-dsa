@@ -43,6 +43,11 @@ _Backtracking is used when you have to look for all possible solution and remove
 **Actual problems:**
 
 [N-Queens problem](https://leetcode.com/problems/n-queens/)
+[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+
+**Special note:**
+Try to convert the problem statement into DFS graph. It will be easy to write recursion from it.
+
 ### Bit Manipulation
 
 ### Dynamic Programming
