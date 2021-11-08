@@ -50,6 +50,55 @@ Try to convert the problem statement into DFS graph. It will be easy to write re
 
 ### Bit Manipulation
 
+-  **1's complement**
+    - Reverse bits of a binary representation
+
+- **2's complement**
+    - 1's complement + 1. Also if the addition results in a carry then discard the carry
+
+-  **Addition**
+    ```console
+     0 1 0 1
+    +0 1 1 1
+    ---------
+     1  1  0  0
+    ```
+
+
+-  **Subtraction**
+    - num1-num2=num1 + 2's complement (num2)
+    
+    Ex: 9-3
+    num1=9
+    num2=3
+    2's complement of num2=1's Complement(3)+1=1101
+    ```console
+     1 0 0 1
+    +1 1 0 1
+    ---------
+     0 1 1 0
+    ```
+- **Operators**
+    - & (AND)
+    - | (OR)
+    - ^ (XOR) 
+    - ~ (1's complement)
+    - ! (NOT)
+    - '>>'
+        - right shift operation
+        - ex: 12 >> 2 (number >> number of shifts to right)
+        - this can also be used to divide a number by 2
+            - ex: 12 >> 1 => `1100 >> 1= 0110` => 6
+
+    - '<<'
+        - left shift operation
+        - ex: 12 << 2 (number << number of shifts to left)    
+        - this can also be used to multiply a number by 2
+            - ex: 12 << 1 => `1100 << 1= 11000` => 24
+        
+        
+
+
 ### Dynamic Programming
 
 ### Array
